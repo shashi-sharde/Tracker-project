@@ -63,7 +63,7 @@
                 const childNode = `<li id=${User.Number}> .${User.Number}- ${User.Description}-,${User.Cetegory}
                     <button onclick=deleteExpenses('${User.Number}')>Delete Expenses</button>
                     <button onclick=editExepnses('${User.Number}','${User.Description}','${User.Cetegory}')>Edit</button></li>`
-                parentNode.innerHTML = parentNode.innerHTML + childNode// to add the child node in to ul parent node
+                parentNode.innerHTML = parentNode.innerHTML+ childNode// to add the child node in to ul parent node
             }
             function editExepnses(number,description,cetegory){
                 document.getElementById('num').value = number
@@ -90,3 +90,4 @@
 
     </body>
 </html>
+
